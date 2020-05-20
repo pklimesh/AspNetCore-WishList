@@ -4,13 +4,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WishList.Controllers
+namespace WishList.Properties.Controllers
 {
     public class HomeController : Controller
     {
         public IActionResult Index()
         {
-            return View();
+            return View("Index");
+        }
+        public IActionResult Error ()
+        {
+            return View("Error");
         }
     }
 }
