@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WishList.Properties.Controllers
+namespace WishList.Controllers
 {
     public class HomeController : Controller
     {
@@ -12,7 +12,7 @@ namespace WishList.Properties.Controllers
         {
             return View("Index");
         }
-        public IActionResult Error ()
+        public IActionResult Error()
         {
             return View("Error");
         }
