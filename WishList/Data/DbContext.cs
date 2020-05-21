@@ -6,10 +6,5 @@ using System.Threading.Tasks;
 namespace WishList.Data
 {
     public class DbContext
-    {
-        public readonly IGetDataRepository _data;
-    }
-    {
-        AddDbContext<ApplicationDbContext>
-    }
+    { }
 }
